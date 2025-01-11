@@ -1,44 +1,104 @@
-.work-sans-normal {
-  font-family: "Work Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: normal;
+.fira-sans-thin {
+  font-family: "Fira Sans", serif;
+  font-weight: 100;
   font-style: normal;
 }
 
-  *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  }
-  header nav{
-    height: 100px;
-    margin: 0px 160px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  nav .header_h3{
-    font-size: 32px;
-    font-weight: 700;
-    color: #0E0E0E;
-    font-family: "Work Sans", serif;
-  }
-  nav .btn{
-    font-size: 18px;
-    font-weight: 600;
-    color: #006A50;
-    font-family: "Work Sans", serif;
-    padding: 15px 30px;
-    border-radius: 8px;
-    border: 1px solid #006A50;
-    background-color: #FFFFFF;
-    cursor: pointer;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-    transition-duration: 1s;
-  }
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
-  nav .btn:hover{
-    color: #FFFFFF;
-    background-color: #006A50;
-    border:1px solid #006A50;
-  }
+header nav {
+  height: 100px;
+  width: 1280px;
+  margin: 0px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .header_h3 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #0E0E0E;
+  font-family: "Fira Sans", serif;
+}
+
+nav .btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: #006A50;
+  font-family: "Fira Sans", serif;
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: 1px solid #006A50;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: 1s;
+}
+
+nav .btn:hover {
+  color: #FFFFFF;
+  background-color: #006A50;
+  border: 1px solid #006A50;
+}
+
+#main_part {
+  width: 1280px;
+  margin: 0px auto;
+}
+
+#main_part .banner {
+  background-color: #C6E4D6;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 59.99px;
+  border-radius: 24px;
+}
+
+.banner_title {
+  width: 616px;
+  margin-top: 37px;
+}
+
+.banner_title .banner_p {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(14, 14, 14, 0.5);
+  font-family: "Fira Sans", serif;
+  margin-bottom: 16px;
+}
+.banner_title .banner_h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #0E0E0E;
+  font-family: "Fira Sans", serif;
+  margin-bottom: 16px;
+  margin-bottom: 24px;
+}
+.button .btn {
+  font-size: 18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  font-family: "Fira Sans", serif;
+  margin-bottom: 16px;
+  padding: 17px 34px;
+  background-color: #006A50;
+  border-radius: 8px;
+  margin-bottom: 24px;
+  border: none;
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: 1s;
+}
+.button .btn:hover{
+  background-color: #FFFFFF;
+  color: #006A50;
+  border: 1px solid #006A50;
+}
+.banner_image{
+  width: 474.03px;
+}
