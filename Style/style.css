@@ -93,7 +93,7 @@ nav .btn:hover {
   background-color: #006A50;
   border-radius: 8px;
   margin-bottom: 24px;
-  border: none;
+  border: 1px solid #006A50;
   cursor: pointer;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   transition-duration: 1s;
@@ -199,7 +199,7 @@ nav .btn:hover {
   font-weight: 400;
   color: rgba(14, 14, 14, 0.7);
   font-family: "Fira Sans", serif;
-  margin-bottom: 30px;
+  margin-bottom: 29px;
 }
 .card_p2{
   margin-bottom: 48px;
@@ -213,9 +213,9 @@ nav .btn:hover {
   color: #FFFFFF;
   font-family: "Fira Sans", serif;
   padding: 11px 20px;
+  border: 1px solid #5490F5;
   border-radius: 8px;
   background-color: #5490F5;
-  border: none;
   cursor: pointer;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   transition-duration: 1s;
@@ -229,6 +229,7 @@ nav .btn:hover {
 
 .button_2 .btn_2{
   background-color: #09A15C;
+  border: 1px solid #09A15C;
 }
 .button_2 .btn_2:hover{
   background-color: #FFFFFF;
@@ -238,10 +239,99 @@ nav .btn:hover {
 
 .button_2 .btn_3{
   background-color: #FFC239;
+  border: 1px solid #FFC239;
 }
 .button_2 .btn_3:hover{
   color: #FFC239;
   background-color: #FFFFFF;
   border: 1px solid #FFC239;
 }
-
+.yunus_sir{
+  margin-top: 32px;
+  margin-bottom: 80px;
+  padding: 48px 24px;
+  background-image: url('../Photo/quote-bg.png');
+  background-size: 64px;
+  background-position-x: 24px;
+  background-position-y: 25px;
+  background-repeat: no-repeat;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+.sir_about{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans", serif;
+  margin-bottom: 12px;
+}
+.sir_name{
+  font-size:20px;
+  font-weight: 600;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans", serif;
+  margin-bottom:4px;
+}
+.sir_title{
+  font-size:16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.6);
+  font-family: "Fira Sans", serif;
+}
+.opinion_h2{
+  font-size:40px;
+  font-weight: 700;
+  color: #0E0E0E;
+  font-family: "Fira Sans", serif;
+  margin-bottom: 24px;
+}
+.opinion_box{
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  padding: 32px;
+}
+table td , th{
+  border: 1px solid rgba(14, 14, 14, 0.15);
+}
+table{
+  border-collapse: collapse;
+}
+.td_div{
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #C6E4D6;
+}
+.th_question{
+  font-size:20px;
+  font-weight: 600;
+  color: #0E0E0E;
+  font-family: "Fira Sans", serif;
+}
+.td_div{
+  width: 1216px;
+}
+.td_1{
+  font-size:16px;
+  font-weight: 600;
+  color: #0E0E0E;
+  font-family: "Fira Sans", serif;
+  padding: 36.5px 24px;
+}
+.ans_div{
+  display: flex;
+  width: 154px;
+  text-align: center;
+  padding: 12.5px 16.5px;
+  background-color: rgba(198, 228, 214, 1);
+  border-radius: 4px;
+  border: 1px solid #0E0E0E;
+}
+.fa-solid{
+  margin-left: 12px;
+  width: 24px;
+}
+.td_c{
+  width: 200px;
+}
