@@ -9,6 +9,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body{
+  background-color: #F1F1F3;
+}
 
 header nav {
   height: 100px;
@@ -57,6 +60,7 @@ nav .btn:hover {
   justify-content: space-between;
   padding: 80px 59.99px;
   border-radius: 24px;
+  margin: 20px 0px 80px 0px;
 }
 
 .banner_title {
@@ -79,10 +83,10 @@ nav .btn:hover {
   margin-bottom: 16px;
   margin-bottom: 24px;
 }
-.button .btn {
+.button .btn_2 {
   font-size: 18px;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #F1F1F3;
   font-family: "Fira Sans", serif;
   margin-bottom: 16px;
   padding: 17px 34px;
@@ -94,11 +98,49 @@ nav .btn:hover {
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   transition-duration: 1s;
 }
-.button .btn:hover{
-  background-color: #FFFFFF;
+.button .btn_2:hover{
+  background-color: #F1F1F3;
   color: #006A50;
   border: 1px solid #006A50;
 }
 .banner_image{
   width: 474.03px;
+}
+.pillars .pillar_titlew{
+  font-size: 40px;
+  font-weight: 700;
+  color: #0E0E0E;
+  font-family: "Fira Sans", serif;
+  margin-bottom: 32px;
+}
+.pillar_cards{
+  display: flex;
+  justify-content: space-between;
+}
+.pillar_card {
+  width: 302px;
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 24px;
+}
+.card_img{
+  width: 62px;
+  margin-bottom: 24px;
+}
+.card_img img{
+  width: 100%;
+}
+.card_h4{
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans", serif;
+  margin-bottom: 12px;
+}
+.card_p{
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
 }
