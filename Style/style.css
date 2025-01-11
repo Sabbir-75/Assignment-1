@@ -403,6 +403,7 @@ table{
   margin-left: 12px;
 }
 .info_p{
+  width: 744px;
   font-size:16px;
   font-weight: 400;
   color: rgba(14, 14, 14, 0.7);
@@ -426,4 +427,179 @@ table{
   color: #006A50;
   background-color: #FFFFFF;
   border: 1px solid #006A50;
+}
+.donate{
+  margin: 80px 0px;
+}
+.donate_h2{
+  font-size:40px;
+  font-weight: 700;
+  color: #0E0E0E;
+  font-family: "Fira Sans", serif;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.donate_p{
+  width: 1104px;
+  font-size:16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.taka{
+  width: 240px;
+  text-align: center;
+}
+.taka_1{
+  width: 252px;
+}
+.taka_1 .tk_card{
+  background-color: #C6E4D6;
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: 1s;
+}
+.taka_2{
+  width: 243px;
+}
+
+.taka_3{
+  width: 264px;
+}
+
+.tk_card{
+  font-size:40px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans", serif;
+  padding: 40px;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: 1s;
+}
+
+
+.ammount_button{
+  text-align: center;
+}
+.tk_card:hover{
+  color: #000000;
+  background-color: #C6E4D6;
+}
+.ammount_card{
+  width: 1071px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ammounr_input{
+  text-align: center;
+  margin: 32px 0px;
+}
+.ammounr_input input{
+  font-size:20px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.3);
+  font-family: "Fira Sans", serif;
+  padding: 20px 422.5px;
+  background-color: #FFFFFF;
+  border: none;
+  border-bottom:1px solid rgba(14, 14, 14, 0.15) ;
+}
+.Subscribe{
+  padding: 80px 265px;
+  background-color: #C6E4D6;
+  border-radius: 24px;
+  margin-bottom: 80px;
+}
+.Subscribe h2{
+  font-size:40px;
+  font-weight: 700;
+  color: #0E0E0E;
+  font-family: "Fira Sans", serif;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.Subscribe p{
+  width: 681px;
+  font-size:16px;
+  font-weight: 400;
+  color: #0E0E0E;
+  font-family: "Fira Sans", serif;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.Subscribe p{
+  font-size:16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  margin-top: 24px;
+}
+.input_1{
+  display: flex;
+}
+.input_1 textarea{
+  width: 300px;
+}
+.input_1 input{
+  width: 600px;
+  height: 55px;
+  padding: 18px 403px 18px 40px;
+  border: none;
+  font-size:16px;
+  font-weight: 400;
+  font-family: "Fira Sans", serif;
+  color: rgba(14, 14, 14, 0.3);
+}
+.subsc{
+  cursor: pointer;
+  padding: 17px 34px;
+  background-color: #006A50;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+
+}
+.input_1 h2{
+  font-size:18px;
+  font-weight: 600;
+  font-family: "Fira Sans", serif;
+  color: #FFFFFF;
+ 
+}
+.footer_all{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.bd h3{
+  font-size:32px;
+  font-weight: 700;
+  color: #0E0E0E;
+  font-family: "Fira Sans", serif;
+  margin-bottom: 32px;
+}
+.img_row{
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+}
+.img_1{
+  width: 24px;
+}
+.img_1 img{
+  width: 100%;
+}
+.img_3{
+  width: 26.55px;
+}
+.img_3 img{
+  width: 100%;
 }
