@@ -335,3 +335,95 @@ table{
 .td_c{
   width: 200px;
 }
+
+.recent_news{
+  margin-top: 80px;
+}
+.recent_h2{
+  font-size:40px;
+  font-weight: 700;
+  color: #0E0E0E;
+  font-family: "Fira Sans", serif;
+  margin-bottom: 24px;
+}
+.recent_p{
+  font-size:16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  margin-bottom: 32px;
+}
+.satellight_card{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+.satellite{
+  border-radius: 24px;
+  background-color: #FFFFFF;
+  display: flex;
+  gap: 32px;
+  padding: 48px;
+}
+.satellite_image{
+  width: 408px;
+ 
+}
+.satellite_image img{
+  width: 100%;
+  border-radius: 24px;
+}
+.satellite_info{
+  width: 744px;
+  margin-top: 8px;
+}
+.info_h3{
+  font-size:32px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+  font-family: "Fira Sans", serif;
+  margin-bottom: 12px;
+}
+.info_img{
+  width: 134px;
+  margin-bottom: 12px;
+}
+.info_img img{
+  width: 100%;
+}
+.date_and_time{
+  font-size:16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  margin-bottom: 12px;
+}
+.Time{
+  margin-left: 12px;
+}
+.info_p{
+  font-size:16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.7);
+  font-family: "Fira Sans", serif;
+  margin-bottom: 32px;
+}
+.button_4{
+  padding: 13px 26px;
+  font-size:18px;
+  font-weight: 600;
+  color: #FFFFFF;
+  background-color: #006A50;
+  font-family: "Fira Sans", serif;
+  border-radius: 8px;
+  border: 1px solid #006A50;
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: 1s;
+}
+.button_4:hover{
+  color: #006A50;
+  background-color: #FFFFFF;
+  border: 1px solid #006A50;
+}
