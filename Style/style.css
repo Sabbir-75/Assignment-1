@@ -15,7 +15,7 @@ body{
 
 header nav {
   height: 100px;
-  width: 1280px;
+  max-width: 1280px;
   margin: 0px auto;
   display: flex;
   align-items: center;
@@ -50,7 +50,7 @@ nav .btn:hover {
 }
 
 #main_part {
-  width: 1280px;
+  max-width: 1280px;
   margin: 0px auto;
 }
 
@@ -64,7 +64,7 @@ nav .btn:hover {
 }
 
 .banner_title {
-  width: 616px;
+  max-width: 616px;
   margin-top: 37px;
 }
 
@@ -104,8 +104,16 @@ nav .btn:hover {
   border: 1px solid #006A50;
 }
 .banner_image{
-  width: 474.03px;
+  max-width: 474.03px;
 }
+
+
+
+
+
+
+
+
 .pillars{
   margin-bottom: 80px;
 }
@@ -121,14 +129,14 @@ nav .btn:hover {
   justify-content: space-between;
 }
 .pillar_card {
-  width: 302px;
+  max-width: 302px;
   background-color: #FFFFFF;
   border-radius: 16px;
   border: 1px solid rgba(14, 14, 14, 0.15);
   padding: 24px;
 }
 .card_img{
-  width: 62px;
+  max-width: 62px;
   margin-bottom: 24px;
 }
 .card_img img{
@@ -147,6 +155,17 @@ nav .btn:hover {
   color: rgba(14, 14, 14, 0.7);
   font-family: "Fira Sans", serif;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .vision_h2{
   font-size: 40px;
@@ -167,7 +186,7 @@ nav .btn:hover {
   justify-content: space-between;
 }
 .card{
-  width: 410.67px;
+  max-width: 410.67px;
   padding: 32px;
   border-radius: 16px;
   background-color: rgba(84, 144, 245, 0.2);
@@ -246,6 +265,18 @@ nav .btn:hover {
   background-color: #FFFFFF;
   border: 1px solid #FFC239;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 .yunus_sir{
   margin-top: 32px;
   margin-bottom: 80px;
@@ -260,7 +291,7 @@ nav .btn:hover {
   border: 1px solid rgba(14, 14, 14, 0.15);
 }
 .sir_about{
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   color: rgba(14, 14, 14, 0.8);
   font-family: "Fira Sans", serif;
@@ -279,6 +310,12 @@ nav .btn:hover {
   color: rgba(14, 14, 14, 0.6);
   font-family: "Fira Sans", serif;
 }
+
+
+
+
+
+
 .opinion_h2{
   font-size:40px;
   font-weight: 700;
@@ -286,6 +323,7 @@ nav .btn:hover {
   font-family: "Fira Sans", serif;
   margin-bottom: 24px;
 }
+
 .opinion_box{
   border-radius: 16px;
   background-color: #FFFFFF;
@@ -318,10 +356,12 @@ table{
   color: #0E0E0E;
   font-family: "Fira Sans", serif;
   padding: 36.5px 24px;
+  text-align: center;
 }
-.ans_div{
+
+.yes{
   display: flex;
-  width: 154px;
+  max-width: 154px;
   text-align: center;
   padding: 12.5px 16.5px;
   background-color: rgba(198, 228, 214, 1);
@@ -330,11 +370,19 @@ table{
 }
 .fa-solid{
   margin-left: 12px;
-  width: 24px;
+  max-width: 24px;
 }
 .td_c{
-  width: 200px;
+  max-width: 200px;
 }
+
+
+
+
+
+
+
+
 
 .recent_news{
   margin-top: 80px;
@@ -375,7 +423,7 @@ table{
   border-radius: 24px;
 }
 .satellite_info{
-  width: 744px;
+  max-width: 744px;
   margin-top: 8px;
 }
 .info_h3{
@@ -386,7 +434,7 @@ table{
   margin-bottom: 12px;
 }
 .info_img{
-  width: 134px;
+  max-width: 134px;
   margin-bottom: 12px;
 }
 .info_img img{
@@ -403,7 +451,7 @@ table{
   margin-left: 12px;
 }
 .info_p{
-  width: 744px;
+  max-width: 744px;
   font-size:16px;
   font-weight: 400;
   color: rgba(14, 14, 14, 0.7);
@@ -428,6 +476,18 @@ table{
   background-color: #FFFFFF;
   border: 1px solid #006A50;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 .donate{
   margin: 80px 0px;
 }
@@ -440,7 +500,7 @@ table{
   text-align: center;
 }
 .donate_p{
-  width: 1104px;
+  max-width: 1104px;
   font-size:16px;
   font-weight: 400;
   line-height: 24px;
@@ -450,11 +510,11 @@ table{
   text-align: center;
 }
 .taka{
-  width: 240px;
+  max-width: 240px;
   text-align: center;
 }
 .taka_1{
-  width: 252px;
+  max-width: 252px;
 }
 .taka_1 .tk_card{
   background-color: #C6E4D6;
@@ -463,11 +523,11 @@ table{
   transition-duration: 1s;
 }
 .taka_2{
-  width: 243px;
+  max-width: 243px;
 }
 
 .taka_3{
-  width: 264px;
+  max-width: 264px;
 }
 
 .tk_card{
@@ -492,7 +552,7 @@ table{
   background-color: #C6E4D6;
 }
 .ammount_card{
-  width: 1071px;
+  max-width: 1071px;
   margin: 0px auto;
   display: flex;
   justify-content: space-between;
@@ -512,6 +572,11 @@ table{
   border: none;
   border-bottom:1px solid rgba(14, 14, 14, 0.15) ;
 }
+
+
+
+
+
 .Subscribe{
   padding: 80px 265px;
   background-color: #C6E4D6;
@@ -527,7 +592,7 @@ table{
   margin-bottom: 16px;
 }
 .Subscribe p{
-  width: 681px;
+  max-width: 681px;
   font-size:16px;
   font-weight: 400;
   color: #0E0E0E;
@@ -535,21 +600,14 @@ table{
   text-align: center;
   margin-bottom: 24px;
 }
-.Subscribe p{
-  font-size:16px;
-  font-weight: 400;
-  color: rgba(14, 14, 14, 0.7);
-  font-family: "Fira Sans", serif;
-  margin-top: 24px;
-}
 .input_1{
   display: flex;
 }
 .input_1 textarea{
-  width: 300px;
+ max-width: 300px;
 }
 .input_1 input{
-  width: 600px;
+  max-width: 600px;
   height: 55px;
   padding: 18px 403px 18px 40px;
   border: none;
@@ -574,6 +632,16 @@ table{
   color: #FFFFFF;
  
 }
+
+
+
+
+
+
+
+
+
+
 .footer_all{
   text-align: center;
   margin-top: 50px;
@@ -592,14 +660,16 @@ table{
   gap: 23px;
 }
 .img_1{
-  width: 24px;
+  max-width: 24px;
 }
 .img_1 img{
-  width: 100%;
+  max-width: 100%;
 }
 .img_3{
-  width: 26.55px;
+  max-width: 26.55px;
 }
+
 .img_3 img{
   width: 100%;
 }
+
