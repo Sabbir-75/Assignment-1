@@ -348,7 +348,7 @@ table{
   font-family: "Fira Sans", serif;
 }
 .td_div{
-  width: 1216px;
+  max-width: 1216px;
 }
 .td_1{
   font-size:16px;
